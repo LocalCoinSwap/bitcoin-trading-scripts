@@ -1,0 +1,2 @@
+https://download.electrum.org/4.0.3/Electrum-4.0.3.tar.gz
+pycryptodomex==3.9.8
