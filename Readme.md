@@ -14,7 +14,7 @@ If you're a hobby rather than professional coder, we've included a short install
 
 ### Bitcoin private keys on LocalCoinSwap
 
-When you register an account with LocalCoinSwap, your browser generates a secret mnemonic phrase, which is only ever known to you. We do not store or have access to your unencrpyted mnemonic phrase, and therehore have no ability to seize or control your funds. If you have used popular webwallet applications before you will no doubt be familiar with the use of a mnemonic.
+When you register an account with LocalCoinSwap, your browser generates a secret mnemonic phrase, which is only ever known to you. We do not store or have access to your unencrypted mnemonic phrase, and therehore have no ability to seize or control your funds. If you have used popular webwallet applications before you will no doubt be familiar with the use of a mnemonic.
 
 LocalCoinSwap derives your private keys from your mnemonic using the BIP39 standard, and then your address from your private keys using the P2SH(P2WPKH) format. You can export your mnemonic from your <link>settings page</link> and your individual private keys from your <link>wallet page</link> on the exchange.
 
@@ -122,7 +122,7 @@ To construct a trade, Alice and John both choose a secret, and LocalCoinSwap cho
 
 The hashed verion of these secrets is baked into the escrow script, and the Bitcoin is only spendable by the someone who possess the secrets of two of the three participants in the trade. Therefore, releasing the BTC to another person is as simple as giving away your secret.
 
-This allows LocalCoinSwap to support offline trading, which we plan to release in the future to support traders in countries such as Venezuela with difficult access to electricity.
+This allows LocalCoinSwap to support offline trading, which we plan to release in the future to support traders in regions or areas with difficult access to electricity.
 
 In technical terms, a trade secret is a randomly chosen 32 byte hex string, which traders on LocalCoinSwap create automatically from their mnemonics.
 
