@@ -8,7 +8,7 @@ Using the excellent Electrum wallet Python libraries, we will run through a full
 
 ### Running these examples
 
-To run these examples in Python, you'll need to install the latest version of Electrum wallet on your system. While Electrum is famous as a Bitcoin wallet, it is also the most comprehensive and well-maintained Python Bitcoin library around today.
+To run these examples in Python, you'll need to install the latest version of Electrum wallet on your system. While Electrum is famous as a Bitcoin wallet, it is also the most comprehensive, and well-maintained, Python Bitcoin library around today.
 
 If you're a hobby rather than professional coder, we've included a short installation guide to get you started with the file `Installation.md`. If you just want to see/run the code yourself without reading the explanation we've also included `CodeDemonstration.py`.
 
