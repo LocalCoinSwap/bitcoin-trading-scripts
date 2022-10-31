@@ -14,7 +14,7 @@ If you're a hobby rather than professional coder, we've included a short install
 
 ### Bitcoin private keys on LocalCoinSwap
 
-When you register an account with LocalCoinSwap, your browser generates a secret mnemonic phrase, which is only ever known to you. We do not store or have access to your unencrypted mnemonic phrase, and therehore have no ability to seize or control your funds. If you have used popular webwallet applications before you will no doubt be familiar with the use of a mnemonic.
+When you register an account with LocalCoinSwap, your browser generates a secret mnemonic phrase, which is only ever known to you. We do not store or have access to your unencrypted mnemonic phrase, and therefore we have zero ability to seize(control) your funds. You may be aware of mnemonic phrase, if you are using/previously used any crypto web wallets.
 
 LocalCoinSwap derives your private keys from your mnemonic using the BIP39 standard, and then your address from your private keys using the P2SH(P2WPKH) format. You can export your mnemonic from your <link>settings page</link> and your individual private keys from your <link>wallet page</link> on the exchange.
 
